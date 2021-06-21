@@ -216,7 +216,8 @@ body {font-family: 'Roboto', sans-serif;}
     text-align: center;
     color: #fff;
     position: absolute; top: 50%; width: 100%; text-align: center;
-    transform: translateY(-50%);
+    transform: translateY(-50%); opacity: 0;
 }
+#main .portfolio .product div:hover .textbox {opacity: 1;}
 
 
