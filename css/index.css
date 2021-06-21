@@ -190,12 +190,12 @@ body {font-family: 'Roboto', sans-serif;}
 
 
 /* PORTFOLIO 구역 시작 */
+#main .portfolio {  font-family: 'Montserrat', sans-serif;}
 #main .portfolio .category {
     text-align: center; 
 }
 #main .portfolio .category li {
     display: inline-block; 
-    font-family: 'Montserrat', sans-serif;
     font-size: 12px; color: #6f6f6f;
     padding: 30px 25px 80px ;
 }
@@ -219,5 +219,8 @@ body {font-family: 'Roboto', sans-serif;}
     transform: translateY(-50%); opacity: 0;
 }
 #main .portfolio .product div:hover .textbox {opacity: 1;}
-
+.portfolio .product .textbox p {
+    font-size: 14px;
+}
+.portfolio .product .textbox span { font-size: 11px; color: #939393;}
 
