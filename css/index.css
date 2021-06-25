@@ -197,53 +197,53 @@ h3{
 
 
 /* PORTFOLIO 구역 시작 */
-#main .portfolio {  font-family: 'Montserrat', sans-serif;}
-#main .portfolio .category {
+.portfolio {  font-family: 'Montserrat', sans-serif;}
+.portfolio .category {
     text-align: center; 
     margin-bottom: 70px;
 }
-#main .portfolio .category li {
+.portfolio .category li {
     display: inline-block; 
     font-size: 13px; color: #6f6f6f;
     margin-right: 50px;
     font-family: 'Montserrat', sans-serif;
     transition: all 0.3s;
 }
-#main .portfolio .category li:hover {
+.portfolio .category li:hover {
     border-bottom: 1px solid #999;
     color: #3d3d3d;
 }
 
-#main .portfolio .category li:last-child {
+.portfolio .category li:last-child {
     margin-right: 0px;
 }
-#main .portfolio .product { padding: 0 50px 50px;}
-#main .portfolio .product li {
+.portfolio .product { padding: 0 50px 50px;}
+.portfolio .product li {
     float: left; 
     width:25%;
     padding: 0 10px 10px 0
 }
 
-#main .portfolio .product .imgbox2 {position: relative; overflow: hidden;}
-#main .portfolio .product .imgbox2::after {
+.portfolio .product .imgbox2 {position: relative; overflow: hidden;}
+.portfolio .product .imgbox2::after {
     content: '';
     position: absolute; top: 20px; left: 20px; right: 20px; bottom: 20px;
     background-color: rgba(0,0,0,0); transition: all 0.3s;
 }
-#main .portfolio .product li:hover .imgbox2::after{
+.portfolio .product li:hover .imgbox2::after{
     background-color: rgba(0,0,0,0.8);
 }
-#main .portfolio .product img {transition: all 0.3s;}
-#main .portfolio .product .imgbox2:hover img {
+.portfolio .product img {transition: all 0.3s;}
+.portfolio .product .imgbox2:hover img {
     transform: scale(1.1); 
 }
-#main .portfolio .product .textbox {
+.portfolio .product .textbox {
     text-align: center;
     color: #fff;
     position: absolute; top: 50%; left: 50%; text-align: center;
     transform: translate(-50%,-50%); opacity: 0; z-index: 999;
 }
-#main .portfolio .product div:hover .textbox {opacity: 1;}
+.portfolio .product div:hover .textbox {opacity: 1;}
 .portfolio .product .textbox p {
     font-size: 15px;
     white-space: nowrap;
@@ -299,7 +299,7 @@ h3{
 
 
 /* CONTACT 구역 시작 */
-#main .contact .icon { 
+.contact .icon { 
     text-align: center; padding: 30px 0 80px; 
     overflow: hidden;
     border-bottom: 1px solid #c4c4c4;
@@ -314,18 +314,18 @@ h3{
     line-height: 24px; 
 }
 
-#main .contact {
+.contact {
     overflow: hidden;
     margin-bottom: 120px;
 }
 
-#main .contact .qna,
-#main .contact .project {
+.contact .qna,
+.contact .project {
     float: left;
     width: 44%;
 }
 
-#main .contact .qna {
+.contact .qna {
     margin-right: 11%;
 }
 
