@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+#loginPage .loginTop {
+    background-image: url(../images/Bgvisual2.jpg);
+    background-size: cover;
+    padding: 160px 0;
+    color: #fff;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+}
+#loginPage .loginTop p {
+    font-size: 15px;
+    padding-top: 10px;
+    color: #d4d4d4;
+    font-weight: 500;
+}
+#loginPage .loginBox h2 {
+    text-align: center;
+    color: #222;
+    font-size: 35px;
+    margin-top: 50px;
+}
+.loginBox .loginForm {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.loginBox .loginForm label {
+    position: absolute; 
+    width: 0; height: 0;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+.loginBox .loginForm input {
+    background-color: #f8f9fa;
+    width: 430px;
+    height: 45px;
+    text-indent: 1em;
+    border-radius: 5px;
+    border: none;
+}
+.loginBox .loginForm p {
+    padding-top: 15px;
+}
+.loginBox .loginForm button {
+    background-color: #3e78ff;
+    color: #fff;
+    width: 430px;
+    height: 45px;
+    border-radius: 5px;
+    margin: 20px 0 30px;
+    font-size: 15px;
+    border: none;
+    transition: all 0.3s;
+}
+.loginBox .loginForm button:hover {
+    background-color: #5f8fff;
+}
+
+.loginBox .loginForm button i {
+    padding-right: 5px;
+}
+.loginBox .info { margin-bottom: 50px;}
+
+/* 질문) after로 만든 세로박스 두께가 서로 다름 */
+.loginBox .info a {
+    position: relative;
+    padding: 8px;
+    color:#555;
+    font-size: 14px;
+}
+.loginBox .info a::after {
+    content: '';
+    background-color: #d6d6d6;
+    width: 1px; height: 12px;
+    position: absolute; top: 12px; right: -2px;
+}
+.loginBox .info a:last-child::after {
+    display: none;
+}

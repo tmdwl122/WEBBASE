@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+#joginPage .joginTop {
+    background-image: url(../images/Bgvisual2.jpg);
+    background-size: cover;
+    padding: 160px 0;
+    color: #fff;
+    text-align: center;
+    font-size: 23px;
+}
+#joginPage .joginTop p {
+    font-size: 15px;
+    padding-top: 10px;
+    color: #d4d4d4
+}
+#joginPage h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.joinBox {
+   margin: 0 auto;
+}
+#joginPage .joinBox h2 {
+    color: #222;
+    padding: 20px 0 80px;
+}
+
+#joginPage .joinWrap legend {
+    font-size: 21px;
+    color: #3278ff;
+    display: block;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+#joginPage .joinWrap legend::after {
+    content: '';
+    border-bottom: 1px solid #3278ff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 440px;
+}
+
+#joginPage .joinWrap label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#joginPage .joinWrap input {
+    background-color: #f8f9fA;
+    width: 440px;
+    height: 54px;
+}
+
+#joginPage .joinWrap #pid + button {
+    background-color: #868e96;
+    width: 440px;
+    height: 48.8px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 15px;
+}
