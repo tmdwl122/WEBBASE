@@ -10,34 +10,104 @@ font-family: 'Roboto', sans-serif; */
 #header { 
     position: fixed; 
     width:100%; top:0; left:0; 
-    z-index: 999;
+    z-index: 999; 
+    background-color: #fff;
 }
 
-#header h1 img { width: 130px; transform: translate(50px,10px);}
-#header #nav {
-    position: absolute;
-    top:50%; left: 50%;
-    transform: translate(-50%,5px);
-}
+#header h1 img { width: 130px; transform: translate(50px,19px);}
 
-#header #nav li {
+/* 1단계 메뉴 */
+#nav .depth1 {
+   padding: 0 550px;
+}
+#nav .depth1 > li {
     float: left;
     width:16.666%;
     text-align: center;
-    padding: 0 20px 17px;
-    font-size: 13px;
-    color: #fff;
+    padding: 0 30px 17px;
+    position: relative;
+    font-size: 14px;
+    color: #777;
+}
+
+#nav .depth1 > li > a:hover {
+    color: #754821;
+}
+
+
+#header #nav .depth1 > li::after {
+    content: '';
+    width: 100%; height: 2px; background-color: none;
+    position: absolute; bottom: 0; left: 0;
+    transition: all 0.5s;
+}
+#header #nav .depth1 > li:hover::after {
+    background-color: #754821;
+}
+/* 2단계 메뉴 */
+#nav .depth2 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 0px;
+    opacity: 0;
+    background-color: #fff;
+    color:#666;
+    border-top: 1px solid #d1d1d1;
+    padding-top: 20px;
+    transition: all 0.3s;
+    z-index: 98;
+}
+
+#nav .depth2 > li {
+    padding: 5px 0;
+    font-size:14px; 
+}
+
+#nav .depth2 > li > a:hover {
+    color: #754821;
+}
+
+#nav .depth1:hover .depth2 {
+    opacity: 1;
+    height: 160px;
+}
+
+#nav {
+    position: relative;
+}
+
+#nav .bgbox {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 0px;
+    background-color: #fff;
+    transition: all 0.3s;
+    border-top: 1px solid #d1d1d1;
+}
+
+#nav .depth1:hover + .bgbox {
+    height: 160px;
 }
 
 #header .login {
     position: absolute;
-    top:15px; right:50px; 
-    font-size: 13px;
-    color: #fff;
-    border: 1px solid #fff;
+    top:23px; right:50px; 
+    font-size: 14px;
+    color:#666;
+    border: 1px solid #666;
     border-radius: 50px;
-    padding: 7px 22px;
+    padding: 0 3px;
 }
+
+#header .login a {
+    display: inline-block;
+    padding: 5px 13px;
+}
+
 .login a:first-child {
     position: relative;
     padding-right: 20px;
@@ -47,7 +117,7 @@ font-family: 'Roboto', sans-serif; */
     width: 1px; height: 12px;
     background-color: #999;
     position: absolute;
-    top: 1px; right: 5px;
+    top: 7px; right: 0px;
 }
 /* header구역 끝 */
 

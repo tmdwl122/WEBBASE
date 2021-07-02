@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+.boardTop {
+    background-image: url(../images/Bgvisual3.jpg);
+    background-size: cover;
+    padding: 120px 0;
+    color: #fff;
+    text-align: center;
+    font-size: 23px;
+}
+
+#noticePage .boardTop p {
+    font-size: 15px;
+    padding-top: 10px;
+    color: #d4d4d4
+}
+
+#noticePage h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+#noticePage .boardBox h3 {
+    font-size: 32px;
+    color: #222;
+    text-align: center;
+    padding: 60px 0;
+}
+
+#noticePage .boardWrap table {
+    font-size: 15px;
+    color: #777;
+    border: none;
+    margin-bottom: 150px;
+}
+
+.boardWrap th,
+.boardWrap td {
+    padding: 17px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+#noticePage .boardWrap th {
+    border-top: 2px solid #777;
+}
+
+.boardWrap col:first-child {
+    width: 150px
+}
+
+.boardWrap col:nth-child(2) {
+    width: auto
+}
+
+.boardWrap col:last-child {
+    width: 280px
+}
+
+.boardWrap td:nth-child(2) {
+    text-align: left;
+}
+
+.boardWrap th {
+    position: relative;
+}
+
+.boardWrap th::after {
+    content: '';
+    width: 1px;
+    height: 15px;
+    background-color: #555;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+.boardWrap th:first-child::after {
+    display: none;
+}
+
+.search select,
+.search input {
+    height: 38px;
+    border: 1px solid #c7c7c7;
+    color: #666;
+    font-size: 14px;
+    padding: 3px 12px;
+}
+
+.search button {
+    height: 38px;
+    padding: 5px 14px;
+    background-color: #adb5bd;
+    border: none;
+    color: #fff;
+}
+
+.boardWrap .search {
+  padding-bottom: 90px;
+}

@@ -13,6 +13,7 @@
     padding-top: 10px;
     color: #d4d4d4
 }
+
 #joginPage h2 {
     text-align: center;
     color: #fff;
@@ -20,19 +21,21 @@
     margin-top: 50px;
 }
 
-.joinBox {
-   margin: 0 auto;
-}
 #joginPage .joinBox h2 {
     color: #222;
-    padding: 20px 0 80px;
+    padding: 20px 0 60px;
+}
+
+#joginPage .joinWrap {
+    margin: 0 auto;
+    width: 440px;
 }
 
 #joginPage .joinWrap legend {
     font-size: 21px;
     color: #3278ff;
     display: block;
-    padding-bottom: 10px;
+    padding: 30px 0 10px;
     position: relative;
 }
 
@@ -48,19 +51,99 @@
 #joginPage .joinWrap label {
     font-size: 14px;
     font-weight: bold;
+    display: block;
+    padding: 30px 0 5px;
+    color: #000;
+    font-weight: bold;
 }
 
 #joginPage .joinWrap input {
     background-color: #f8f9fA;
-    width: 440px;
+    border: none;
+    width: 100%;
     height: 54px;
+    text-indent: 1em;
+    font-size: 17px;
 }
 
 #joginPage .joinWrap #pid + button {
     background-color: #868e96;
-    width: 440px;
+    width: 100%;
     height: 48.8px;
     border-radius: 4px;
     color: #fff;
     font-size: 15px;
+    border: none;
+    margin-top: 10px;
+    transition: all 0.3s;
+}
+
+#joginPage .joinWrap #pid + button:hover {
+    background-color: #495057;
+}
+
+#joginPage .joinWrap p {
+    color: #777;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#joginPage .joinWrap #email {
+    width: 30%;
+}
+
+#joginPage .joinWrap #emcom {
+    width: 30%;
+    background-color: #f8f9fA;
+    border: none;
+    height: 54px;
+    font-size: 15px;
+}
+
+#joginPage .joinWrap #emdomain {
+    width: 34%;
+}
+
+#joginPage .joinWrap input[type="radio"] {
+    width:13px;
+    height: 13px;
+}
+
+#joginPage .joinWrap input[type="radio"] + label {
+  color: #777;
+  display: inline-block;
+  padding: 5px 15px 0 0;
+}
+
+.joinWrap .btn {
+    margin: 40px 0 120px;
+}
+
+.joinWrap .btn i {
+    padding-right: 5px;
+}
+
+.joinWrap .btn button {
+    padding: 14px 24px;
+    color: #fff;
+    font-size: 16px;
+    width: 48%;
+    height: 48px;
+    border: none;
+    background-color: #3278ff;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+.joinWrap .btn button:hover {
+    background-color: #5f8fff;
+}
+
+.joinWrap .btn button:last-child {
+    background-color: #adb5bd;
+    margin-left: 8px;
+}
+
+.joinWrap .btn button:last-child:hover {
+    background-color: #c0c7ce;
 }

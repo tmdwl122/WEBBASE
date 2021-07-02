@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBBASE</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/board.css">
+</head>
+<body>
+    <header id="header">
+        <h1><a href="index.html"><img src="./images/logo-white.png" alt="웹베이스"></a></h1>
+        <nav id="nav">
+            <ul cf>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">CLIENTS</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">COMMUNITY</a></li>
+            </ul>
+        </nav>
+        <div class="login">
+            <a href="login.html">LOGIN</a>
+            <a href="join.html">JOIN</a>
+        </div>
+        
+    </header>
+
+    <section id="noticePage">
+        <div class="boardTop">
+            <h2>공지사항</h2>
+            <p>웹베이스의 새로운 소식을 전해드립니다.</p>
+        </div>
+
+        <div class="boardBox inner">
+            <h3>공지사항</h3>
+            <div class="boardWrap">
+                <table>
+                    <caption>공지사항</caption>
+                    <colgroup>
+                        <col>
+                        <col>
+                        <col>
+                    </colgroup>
+                    <tr>
+                        <th>번호</th>
+                        <th>제목</th>
+                        <th>작성일자</th>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><a href="#">공지사항의 글은 메인페이지와 연동됩니다.</a></td>
+                        <td>2019-08-15</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><a href="#">웹베이스 서비스는 남다릅니다.</a></td>
+                        <td>2019-08-15</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><a href="#">공지사항 게시물 작성 테스트입니다.</a></td>
+                        <td>2019-08-15</td>
+                    </tr>
+                </table>
+                <div class="search">
+                    <form action="#" method="POST">
+                        <fieldset>
+                            <legend>검색어입력</legend>
+                            <select name="cate" id="cate">
+                                <option value="title">제목</option>
+                                <option value="content">내용</option>
+                                <option value="writer">작성자</option>
+                            </select>
+                            <label class="blind">검색어를 입력하세요</label>
+                            <input type="text" name="keyw" id="keyw">
+                            <button type="submit">검색</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer id="footer">
+        <div class="sns">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="info">
+            <p>
+                <span>상호</span>웹베이스 <span>대표</span>웹베이스 <span>사업자등록번호</span>000-00-00000
+            </p>
+            <p>
+                <span>주소</span>서울특별시 동작구 보라매로5길 15 (신대방동,전문건설회관)
+            </p>
+            <p>
+               <span> 전화</span>010-8470-7947 <span>이메일</span>webbase@naver.com
+            </p>
+        </div>
+        <p>COPYRIGHT 2019 WBEBASE ALL RIGHTS RESERVED.</p>
+    </footer>
+
+</body>
+</html>

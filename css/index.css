@@ -138,7 +138,7 @@ body {font-family: 'Roboto', sans-serif;}
 /* SERVICE 구역 시작 */
 .service {
     background-image: linear-gradient(to top,#fff,#f6f6f6);
-    margin: 20px 50px; padding: 150px;
+    margin: 20px 50px; padding: 150px 320px;
 }
 .service > ul {position: relative;}
 .service > ul > li {float: left; width:32.133%}
@@ -165,10 +165,10 @@ h3{
     position: absolute; top: 92%; left: 15px;
     color: #fff; transition: all 0.3s ease-out; 
 } 
-.service > ul > li:hover .text { top: 58%;}
-.service > ul > li:first-child:hover .text { top: 68%;}
+.service > ul > li:hover .text { top: 64%;}
+.service > ul > li:first-child:hover .text { top: 69%;}
 .service > ul > li .line {
-    position: absolute; bottom:153px; left:0px;
+    position: absolute; bottom:129px; left:0px;
     width: 0%; height: 1px; 
     background-color: #c4c4c4;
     transition: all 0.5s;
