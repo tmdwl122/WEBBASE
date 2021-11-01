@@ -40,3 +40,9 @@ $(".qna dt a").on('click', function(e){
     e.preventDefault()
 })
 
+$('.gotop').on('click', function(){
+    $('html, body').animate({
+        scrollTop:0
+    }, 600)
+    return false
+})
