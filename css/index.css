@@ -325,44 +325,65 @@ h3{
     width: 44%;
 }
 
-.contact .qna {
-    margin-right: 11%;
+.contact .project {
+    float: right;
+    width: 44%;
 }
 
-.contact .qna a {
+/* .qna dt {
     font-size: 13px;
     color: #232323;
     font-weight: bold;
     border-bottom: 1px solid #c4c4c4;
     position: relative;
-    display: inline-block;
-    width: 100%;
-    padding: 22px 0;
+    cursor: pointer;
+    padding: 20px 0 15px;
 }
 
-.contact .qna .text {
-    padding: 20px 0;
-}
-
-.contact .qna .text p {
-    line-height: 1.8em;
-    font-size: 14px;
-    font-weight: 500;
-}
-
-.contact .qna a::after {
-    content: '+';
-    color: #888;
-    font-size: 20px;
-    font-weight: 300;
+.qna dt a {
+    font-size: 12px;
     position: absolute;
-    top: 20px;
-    right: 4px;
+    top: 50%; 
+    right: 0;
+    transform: translateY(-50%);
 }
 
-.contact .qna .text p {
-    color: #555;
+.qna dt + dd {
+    padding: 20px 0 25px;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    display: none;
+} */
+
+/* .qna dt.on + dd {
+    display: block; 
+}  */
+
+.qna dt { 
     font-size: 13px;
+    color: #232323;
+    font-weight: bold;
+    border-bottom: 1px solid #c4c4c4;
+    cursor:pointer;
+    padding: 20px 0 15px;
+    position: relative;
+}
+
+.qna dt a {
+    font-size: 12px;
+    position: absolute;
+    top: 50%; 
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.qna dt + dd {
+    padding: 20px 0 25px;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    display: none;
 }
 
 .contact h5 {
